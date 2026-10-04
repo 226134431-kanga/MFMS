@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
+#include "budget.h"
 
-int main(){
+void budgetMenu(void){
 
     char departmentName[10][100];
     double allocatedBudget[10];
@@ -43,7 +44,5 @@ int main(){
     }
 
 }   
-
-return 0;
 
 }
