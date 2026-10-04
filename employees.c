@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <string.h>
+#include "employees.h"
+#include "validation.h"
 
-int main()
+void employeeMenu(void)
 {
     int employeeID[10];
     char name[10][50];
@@ -108,5 +110,5 @@ int main()
         }
     } while (choice != 2);
 
-    return 0;
+    return;
 }
