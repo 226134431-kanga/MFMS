@@ -134,4 +134,4 @@ Michael Makeva was responsible for the  Functions, integration and validations
 | Student7             | Student No. | Responsibility      |
 | Antonio Kanga        | 226134431   | Testing, documentation and Git coordination |
 
-Antonio Kanga was responsible for the final testing, documentation and Git coordination
+Antonio Kanga was responsible for the final testing, documentation and Git coordination. Also the creation of the Main Menu and project skeloton.
