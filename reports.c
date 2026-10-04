@@ -136,7 +136,7 @@ void EmployeeReport(double salaries[],
 
     average = total / count;
 
-    printf("\n======================EMPLOYEE MANAGEMENT REPORT====================\n");
+    printf("\n======================EMPLOYEE MANAGEMENT REPORT===================\n");
     printf("Total Employees: %d\n", count);
     printf("Average Gross Salary: N$%.2lf\n", average);
     printf("Highest Gross Salary: N$%.2lf\n", highest);
