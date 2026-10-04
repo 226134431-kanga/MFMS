@@ -17,7 +17,6 @@ int main()
     int search;
     int found;
     int choice;
-    int count;
 
     printf("=========== EMPLOYEE MANAGEMENT =============\n");
 
@@ -52,7 +51,6 @@ int main()
         printf("Enter other allowances: ");
         scanf("%lf", &otherAllowances[i]);
 
-        while ((count = getchar()) != '\n' && count != EOF)
         {
         }
 
