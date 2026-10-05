@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
+#include "assets.h"
 
-int main()
+void assetMenu()
 {
     int id[10];
     char name[10][50];
@@ -51,5 +52,5 @@ int main()
         printf("Condition: %s\n", condition[i]);
     }
 
-    return 0;
-        }
+return;
+}

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "reports.h"
 
 void EmployeeReport(double salaries[], 
                     int count);
@@ -25,7 +26,7 @@ void AssetReport(int id[],
                 int count);
 
 
-int main()
+void reportsMenu(void)
 {
     char input[100];
     int choice;
@@ -107,7 +108,7 @@ int main()
 
     } while (choice != 0);
 
-    return 0;
+    return;
 }
 
 

@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
-int main(){
+#include "suppliers.h"
+
+void supplierMenu(void){
     char Name[10][50];
     char ID[10][10];
     char email[10][50];
@@ -35,5 +37,5 @@ for(int i=0; i<10; i++){
     printf("SUPPLIER TOWM: %s",town[i]);
 }
 
- return 0;   
+ return;   
 }
