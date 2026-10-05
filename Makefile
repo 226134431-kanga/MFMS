@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -std=c99 -Wall -Wextra -pedantic
-SRC = main.c employees.c budget.c suppliers.c assets.c reports.c
+SRC = main.c employees.c budget.c suppliers.c assets.c reports.c validation.c
 
 mfms: $(SRC)
 	$(CC) $(CFLAGS) -o mfms $(SRC)
