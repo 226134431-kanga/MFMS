@@ -31,7 +31,7 @@ This Project is about creating a system that helps a municipality manage employe
 - Input validation (negative values should not be accepted, no empty names, no invalid numbers or choices.)
 
 ##  How to Compile
-    gcc -std=c99 -Wall -Wextra -pedantic -o mfms main.c employees.c budget.c suppliers.c assets.c reports.c
+    gcc -std=c99 -Wall -Wextra -pedantic -o mfms main.c employees.c budget.c suppliers.c assets.c reports.c validation.c
 
 
 ## How to Run
@@ -45,6 +45,7 @@ This Project is about creating a system that helps a municipality manage employe
     suppliers.c / .h        supplier management
     assets.c / .h           asset register
     reports.c / .h          reports
+    validation.c / .h       input validation
 
 ## Responsibilities
 
